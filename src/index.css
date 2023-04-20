@@ -12,6 +12,16 @@ a{
   text-decoration: none;
 }
 
+.btn{
+  width: 200px;
+  height: 60px;
+  border-radius: 16px;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
 .navbar{
   display: flex;
   align-items: center;
@@ -32,3 +42,33 @@ a{
   padding: 0.5em;
 }
 
+.Hero{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 25em;
+  background-color: pink;
+}
+
+.hero-info{
+  display: flex;
+  flex-direction: column;
+  width: 23em;
+  margin-top: 4em;
+}
+
+.hero-img{
+  height: 20em;
+  width:23.5em;
+  margin: 2em;
+}
+
+.hero-info p {
+  margin: 2em 0;
+  width: 15em;
+}
+
+.hero-info button{
+  margin-top: 1.5em;
+}
