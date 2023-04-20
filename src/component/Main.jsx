@@ -1,8 +1,11 @@
 import React from 'react'
+import Hero from './Hero'
 
 function Main() {
   return (
-    <div>Main</div>
+    <div>
+      <Hero />
+    </div>
   )
 }
 
