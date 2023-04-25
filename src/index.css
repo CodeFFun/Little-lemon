@@ -115,3 +115,38 @@ a{
   margin: 0.8em;
   padding: 0.6em;
 }
+
+.testimonials{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimony-body{
+  display: flex;
+}
+
+.testimonials-heading{
+  margin: 2em;
+}
+
+.testimony-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 12.9em;
+}
+
+.testimony-details{
+  display: flex;
+}
+
+.testimony-content h3{
+  margin: 0.8em;
+}
+
+.testimony-details img{
+  margin: 0 3.5em 0.8em 0;
+}

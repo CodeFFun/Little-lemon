@@ -1,38 +1,45 @@
-import React from 'react'
+import person1 from '../icons_assets/R.jpg'
+import person2 from '../icons_assets/Image.jpg'
+import person3 from '../icons_assets/person-1.jpg'
+
 
 function Testimonials() {
     const testimony = [
         {
             rating: 7.5,
-            img:'',
-            name: '',
-            description
+            img:person1,
+            name: 'Kyle',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugit blanditiis nisi. Neque, sit odit!'
         },
         {
             rating: 9.5,
-            img:'',
-            name: '',
-            description
+            img:person2,
+            name: 'Rose',
+            description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugit blanditiis nisi. Neque, sit odit!'
         },
         {
             rating: 8.0,
-            img:'',
-            name: '',
-            description
+            img:person3,
+            name: 'Beth',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugit blanditiis nisi. Neque, sit odit!'
         },
     ]
   return (
-    <>
+    <div className='testimonials'>
         <h1 className="testimonials-heading">Testimonials</h1>
-        <div className="testimonials-content">
-            <h3 className="rating"></h3>
-            <div className="testimonials-pic">
-                <img src="" alt="" />
-                <p></p>
+        <div className="testimony-body">
+        {testimony.map((item, index) => {
+            return <div className="testimony-content" key={index}>
+                <h3>{item.rating}</h3>
+                <div className="testimony-details">
+                    <img src={item.img} alt="I like it" />
+                    <p>{item.name}</p>
+                </div>
+                <p>{item.description}</p>
             </div>
-            <p></p>
+        })}
         </div>
-    </>
+    </div>
   )
 }
 
