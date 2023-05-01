@@ -11,12 +11,19 @@ li{
 
 a{
   text-decoration: none;
+  color: #333333;
+}
+
+a:hover{
+  color: #ee9972;
 }
 
 .btn{
   width: 200px;
   height: 60px;
   border-radius: 16px;
+  background-color: #f4ce14;
+  color: #333333;
 }
 
 .btn:hover{
@@ -48,7 +55,8 @@ a{
   justify-content: center;
   flex-wrap: wrap;
   width: 100vw;
-  background-color: pink;
+  background-color: #495e57;
+  color: #edefee;
 }
 
 .hero-info{
@@ -62,6 +70,10 @@ a{
   height: 20em;
   width:23.5em;
   margin: 2em;
+}
+
+.hero-info h1{
+  color: #b69a0e;
 }
 
 .hero-info p {
@@ -93,10 +105,17 @@ a{
   display: flex;
   width: 800px;
   height: 439px;
+  overflow-y: hidden;
 }
 
 .card-content{
   margin: 0.5em 2.3em 0 0;
+  background-color: #edefee
+}
+
+.card-content:hover{
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .card-content img{
@@ -110,6 +129,10 @@ a{
   margin: 0.85em ;
 }
 
+.item-headings h4{
+  color: #ee9972;
+}
+
 .card-content p{
   line-height: 1.5em;
   margin: 0.8em;
@@ -121,6 +144,7 @@ a{
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  background-color: #edefee;
 }
 
 .testimony-body{
@@ -132,21 +156,46 @@ a{
 }
 
 .testimony-content {
+  margin: 2em;
+  padding: 2em;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   width: 12.9em;
+  background-color: #ffffff;
+  color: #333333;
 }
 
 .testimony-details{
   display: flex;
+  margin: 2em 0;
 }
 
 .testimony-content h3{
   margin: 0.8em;
+  color: #b69a0e;
 }
 
 .testimony-details img{
-  margin: 0 3.5em 0.8em 0;
+  margin: 0 4.5em 0.8em 0;
+}
+
+.footer{
+  background-color: #495e57;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: center;
+  margin: 7em;
+  color: #edefee;
+}
+
+.footer-nav{
+  margin: 0 3em;
+}
+
+.footer-contact{
+  margin: 0 3em;
 }
