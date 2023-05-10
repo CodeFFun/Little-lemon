@@ -199,3 +199,28 @@ a:hover{
 .footer-contact{
   margin: 0 3em;
 }
+
+.form-control{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.input-space{
+  position: relative;
+  width: 300px;
+  margin: 15px;
+}
+
+.input-space input{
+  width: inherit;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+}
+
+.form-control .btn{
+  margin: 15px;
+}
