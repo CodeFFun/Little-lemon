@@ -15,7 +15,7 @@ function Footer() {
               <li><Link to='/'>About</Link></li>
               <li><Link to='/'>Menu</Link></li>
               <li><Link to='/'>Order online</Link></li>
-              <li><Link to='/'>Reservation</Link></li>
+              <li><Link to='/bookings'>Reservation</Link></li>
               <li><Link to='/'>Login</Link></li>
           </ul>
         </div>
